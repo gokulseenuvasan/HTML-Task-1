@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px 80px;
+  background-color: #181818;
+}
+
+.headright,
+.headleft {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: #181818;
+  width: 50%;
+}
+
+.headright h1 {
+  font-size: 22px;
+  color: white;
+  letter-spacing: 5px;
+  font-weight: 500;
+}
+
+.headleft img {
+  width: 40px;
+  height: 40px;
+}
+
+.gitbody {
+  padding: 80px;
+  height: 100vh;
+  background-color: #cad2c5;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.gitbodyleft {
+  width: 30%;
+}
+
+.gitbodyright {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.graybg {
+  background-color: #181818;
+  border-radius: 20px;
+  width: 100%;
+  height: 100vh;
+}
+
+.top {
+  background-color: #181818;
+  border-radius: 10px;
+  padding: 15px 15px 15px 25px;
+  width: 70%;
+}
+
+.top p {
+  color: #9e9e9e;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.middle {
+  display: flex;
+  gap: 100px;
+  width: 100%;
+}
+
+.middle .graybg {
+  height: 20vh;
+}
+
+.bottom {
+  width: 100%;
+}
+
+.bottom .graybg {
+  height: 44vh;
+}
+
+
+
+
+
+@media screen and (max-device-width:320px), screen and (max-width:1200px)
+{
+    .gitbody
+    {
+        padding: 30px;
+        gap: 30px;
+    }
+    .gitbodyright
+    {
+        gap: 30px;
+    }
+    .middle
+    {
+        gap: 30px;
+    }
+    .middle .graybg {
+        height: 40vh;
+    }
+    .bottom .graybg {
+        height: 40vh;
+    }
+}
+/* 
+
+@media screen and (max-width:768px)
+{
+    .gitbody
+    {
+        padding: 30px;
+        gap: 30px;
+    }
+    .gitbodyright
+    {
+        gap: 30px;
+    }
+    .middle
+    {
+        gap: 10px;
+    }
+    .middle .graybg {
+        height: 40vh;
+    }
+    .bottom .graybg {
+        height: 40vh;
+    }
+}
+
+
+@media screen and (max-width:992px)
+{
+    .gitbody
+    {
+        padding: 30px;
+        gap: 30px;
+    }
+    .gitbodyright
+    {
+        gap: 30px;
+    }
+    .middle
+    {
+        gap: 30px;
+    }
+    .middle .graybg {
+        height: 40vh;
+    }
+    .bottom .graybg {
+        height: 40vh;
+    }
+} */
